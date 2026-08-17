@@ -1,0 +1,55 @@
+# 4. Requisitos do Sistema
+
+## 4.1 Requisitos Funcionais
+
+Os requisitos funcionais descrevem as funcionalidades e os comportamentos que o sistema deverá disponibilizar aos seus usuários, considerando as necessidades identificadas nas User Stories do projeto.
+
+*RF01 — Consulta de disponibilidade de recursos**
+O sistema deve permitir que os funcionários consultem a disponibilidade das peças, ferramentas e materiais cadastrados no almoxarifado.
+
+*RF02 — Solicitação de empréstimo de recursos**
+O sistema deve permitir que os funcionários solicitem o empréstimo de peças, ferramentas ou materiais disponíveis, registrando a solicitação e vinculando-a ao respectivo usuário e recurso.
+
+*RF03 — Notificação de prazo de devolução**
+O sistema deve permitir o envio de notificações aos funcionários sobre os prazos de devolução dos recursos emprestados, visando auxiliar no cumprimento das datas estabelecidas.
+
+*RF04 — Consulta ao histórico de empréstimos**
+O sistema deve permitir que os funcionários consultem o histórico de seus empréstimos, contendo informações sobre os recursos utilizados e seus respectivos registros de empréstimo e devolução.
+
+*RF05 — Solicitação de renovação de empréstimo**
+O sistema deve permitir que os funcionários solicitem a renovação do prazo de um empréstimo por meio da aplicação, sem a necessidade de realizar a solicitação presencialmente.
+
+*RF06 — Cadastro de recursos**
+O sistema deve permitir que o gestor de recursos cadastre peças, ferramentas e materiais, incluindo as informações necessárias para sua identificação e controle no almoxarifado.
+
+*RF07 — Registro de devolução e estado de conservação**
+O sistema deve permitir que o gestor de recursos registre a devolução de um recurso e informe seu estado de conservação, de modo a manter atualizadas sua disponibilidade e integridade.
+
+*RF08 — Consulta de empréstimos em atraso**
+O sistema deve permitir que o gestor de recursos visualize os empréstimos cujo prazo de devolução tenha sido ultrapassado.
+
+*RF09 — Geração de relatórios de utilização dos recursos**
+O sistema deve permitir que o gestor de recursos gere relatórios relacionados à utilização dos recursos, incluindo informações como os itens mais emprestados e o tempo médio de utilização.
+
+*RF10 — Gerenciamento de permissões de acesso**
+O sistema deve permitir que o administrador gerencie as permissões dos usuários e gestores, determinando o acesso às funcionalidades disponíveis de acordo com cada perfil.
+
+## 4.2 Requisitos Não Funcionais
+
+Os requisitos não funcionais definem características de qualidade, restrições e condições de funcionamento que o sistema deverá atender.
+
+*RNF01 — Usabilidade**
+O sistema deve apresentar uma interface simples, clara e intuitiva, permitindo que os funcionários realizem as principais operações sem necessidade de conhecimentos técnicos avançados.
+
+**RNF02 — Desempenho**
+O sistema deve apresentar os resultados das consultas de disponibilidade e do histórico de empréstimos em até 3 segundos após a solicitação do usuário, considerando condições normais de funcionamento.
+
+**RNF03 — Segurança e controle de acesso**
+O sistema deve implementar mecanismos de controle de acesso baseados no perfil do usuário, permitindo que cada usuário visualize e utilize somente as funcionalidades para as quais possui permissão.
+
+**RNF04 — Integridade dos dados**
+O sistema deve garantir a integridade dos dados relacionados aos recursos, empréstimos, devoluções e estados de conservação, evitando alterações ou exclusões não autorizadas.
+
+**RNF05 — Disponibilidade**
+O sistema deve permanecer disponível durante o horário de funcionamento da oficina, possibilitando a realização das operações necessárias para o gerenciamento dos recursos.
+
