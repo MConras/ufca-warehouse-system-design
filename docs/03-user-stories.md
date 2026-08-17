@@ -1,6 +1,6 @@
 # User Stories — Sistema de Almoxarifado
 
-## Contexto
+## 1. Contexto
 
 O sistema tem como objetivo auxiliar no gerenciamento de materiais de um almoxarifado, permitindo controlar o estoque, as solicitações de materiais e o acesso dos usuários.
 
@@ -12,7 +12,7 @@ O sistema tem como objetivo auxiliar no gerenciamento de materiais de um almoxar
 
 ---
 
-## User Stories e Planning Poker
+## 2. User Stories e Planning Poker
 
 | # | User Story | Prioridade | Planning Poker |
 |---|---|---|---:|
@@ -29,7 +29,7 @@ O sistema tem como objetivo auxiliar no gerenciamento de materiais de um almoxar
 
 ---
 
-## Resumo das Prioridades
+## 3. Resumo das Prioridades
 
 ### Alta
 - Consultar disponibilidade de materiais.
