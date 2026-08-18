@@ -1,4 +1,4 @@
-# Especificação de Requisitos — Sitema de Almoxarifado
+# Especificação de Requisitos — Sistema de Almoxarifado
 
 ## 1. Contexto
 
