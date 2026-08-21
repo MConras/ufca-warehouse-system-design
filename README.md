@@ -37,7 +37,7 @@ O projeto visa solucionar gargalos operacionais no almoxarifado universitário, 
 ---
 
 ## 📂 Estrutura do Repositório
-```bash
+```text
 ufca-warehouse-system-design/
 ├── docs/
 │   ├── 01-descricao-problema.md
@@ -46,16 +46,25 @@ ufca-warehouse-system-design/
 │   ├── 04-requisitos.md
 │   ├── 05-planejamentos.md
 │   └── assets/
+│       ├── logo-ufca.png
 │       ├── persona-01-solicitante.pdf
 │       ├── persona-02-gestor.pdf
 │       ├── persona-03-adm.pdf
 │       └── requisitos-do-sistema.txt
 ├── prototipos/
-│   ├── alta-fidelidade/
+│   ├── baixa-fidelidade/
+│   │   ├── prototipo-baixa-fidelidade-solicitante.pdf
+│   │   ├── prototipo-baixa-fidelidade-gestor.pdf
+│   │   └── prototipo-baixa-fidelidade-adm.pdf
 │   ├── media-fidelidade/
-│   └── baixa-fidelidade/
+│   │   ├── prototipo-media-fidelidade-solicitante.pdf
+│   │   └── prototipo-media-fidelidade-gestor.pdf
+│   └── alta-fidelidade/
+│       └── prototipos-alta-fidelidade.md
 └── README.md
 ```
+> [!NOTE]
+> Os arquivos em `docs/assets/` com correspondentes em `.md` serviram de insumo inicial para a padronização e estruturação da documentação.
 
 ---
 
@@ -69,15 +78,25 @@ ufca-warehouse-system-design/
 
 ---
 
+## 📱 Protótipos
+
+| Fidelidade | Acesso |
+| --- | --- |
+| Baixa | [Ver PDFs](prototipos/baixa-fidelidade/) |
+| Média | [Ver PDFs](prototipos/media-fidelidade/) |
+| Alta | [Acessar Links](prototipos/alta-fidelidade/prototipos-alta-fidelidade.md) |
+
+---
+
 ## 🛠️ Ferramentas e Metodologia
 
-* **Gestão e Acompanhamento:** GitHub Projects (Quadro Kanban)
-* **Documentação e Versionamento:** Markdown, Git e GitHub
-* **Prototipagem:** Figma, Google Ai Studio
+- **Gestão e Acompanhamento:** GitHub Projects ([Quadro Kanban](https://github.com/users/MConras/projects/3))
+- **Documentação e Versionamento:** Markdown, Git e GitHub
+- **Prototipagem:** Google AI Studio
 
 ---
 
 ## 🎓 Contexto Acadêmico
-* **Curso:** Engenharia de Software
-* **Disciplina:** Introdução à Engenharia de Software
-* **Docente:** Prof. Rafael Will Macedo de Araújo
+- **Curso:** Engenharia de Software
+- **Disciplina:** Introdução à Engenharia de Software
+- **Docente:** Prof. Rafael Will Macedo de Araújo
